@@ -6,10 +6,12 @@
 Format: username|password|product_url
 
 # Contoh 1: Email + Password + URL
-email@gmail.com|mypassword123|https://www.mi.co.id/id/product/redmi-13x/
+email@gmail.com|mypassword123|https://www.mi.co.id/id/product/redmi-note-13-pro&skupanel=1?gid=4223706588
 
 # Contoh 2: Phone + Password + URL  
-081234567890|mypassword123|https://www.mi.co.id/id/product/xiaomi-14-ultra/
+81234567890|mypassword123|https://www.mi.co.id/id/product/redmi-note-13-pro&skupanel=1?gid=4223706588
+
+WAJIB DENGAN sku panel dan gid
 
 ⚠️ PENTING:
 • Gunakan | sebagai pemisah (tidak boleh spasi)
