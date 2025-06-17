@@ -1,0 +1,65 @@
+📄 CONTOH FILE KONFIGURASI
+===============================
+
+🔧 CONTOH: data.txt
+-------------------
+Format: username|password|product_url
+
+# Contoh 1: Email + Password + URL
+email@gmail.com|mypassword123|https://www.mi.co.id/id/product/redmi-13x/
+
+# Contoh 2: Phone + Password + URL  
+081234567890|mypassword123|https://www.mi.co.id/id/product/xiaomi-14-ultra/
+
+⚠️ PENTING:
+• Gunakan | sebagai pemisah (tidak boleh spasi)
+• Pastikan email/phone terdaftar di akun Xiaomi
+• URL harus lengkap dengan https://
+• Jangan ada baris kosong atau spasi di akhir
+
+📋 CONTOH: url.txt
+------------------
+Format: satu URL per baris
+
+# Contoh URL untuk stock checking
+https://www.mi.co.id/id/product/redmi-13x/
+https://www.mi.co.id/id/product/redmi-note-13-pro/
+https://www.mi.co.id/id/product/xiaomi-14-ultra/
+https://www.mi.co.id/id/product/mi-band-8/
+https://www.mi.co.id/id/product/redmi-buds-5/
+
+# Bisa tambah komentar dengan #
+# URL di bawah ini akan diabaikan:
+# https://www.mi.co.id/id/product/disabled-product/
+
+⚠️ PENTING:
+• Satu URL per baris
+• Tidak boleh ada spasi di awal/akhir URL
+• Komentar dimulai dengan #
+• URL harus dari mi.co.id
+
+🔍 CARA MENDAPATKAN URL PRODUK:
+--------------------------------
+1. Buka browser → pergi ke www.mi.co.id
+2. Cari produk yang diinginkan
+3. Klik produk → copy URL dari address bar
+4. Pastikan URL mengandung "/product/"
+
+Contoh URL yang BENAR:
+✅ https://www.mi.co.id/id/product/redmi-13x/
+✅ https://www.mi.co.id/id/product/redmi-13x/?skupanel=1&gid=123
+
+Contoh URL yang SALAH:
+❌ www.mi.co.id/id/product/redmi-13x/
+❌ https://mi.co.id/redmi-13x/
+❌ https://www.mi.com/id/product/redmi-13x/
+
+💡 TIPS:
+--------
+• Test login manual dulu di browser sebelum pakai automation
+• Kalau pakai 2FA, pastikan sudah dimatikan untuk akun ini
+• URL produk bisa didapat dari halaman produk manapun
+• Stock checker bisa monitor sampai 50+ produk sekaligus
+• Backup file konfigurasi secara berkala
+
+=============================== 
